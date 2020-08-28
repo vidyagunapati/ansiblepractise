@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+  task:
+    - name: i want to ping all my nodes
+      ping:
+    - name: install webserver on ubuntu 16
+      apt:
+        name: apache2
