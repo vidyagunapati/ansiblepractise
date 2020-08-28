@@ -1,7 +1,7 @@
 ---
 - hosts: all
   become: yes
-  task:
+  tasks:
     - name: i want to ping all my nodes
       ping:
     - name: install webserver on ubuntu 16
