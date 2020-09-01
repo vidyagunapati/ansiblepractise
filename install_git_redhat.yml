@@ -1,0 +1,9 @@
+---
+- hosts: 172.31.38.63
+  become: yes
+  tasks:
+  - name: i want to install git
+    yum:
+     name: git
+     state: present
+     
