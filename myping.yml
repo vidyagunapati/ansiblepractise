@@ -7,3 +7,4 @@
     - name: install webserver on ubuntu 16
       apt:
         name: apache2
+        state: present
