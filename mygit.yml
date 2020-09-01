@@ -1,0 +1,14 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+   - name: i want to ping all my nodes
+     ping:
+   - name: i want to install git on ubuntu 16
+     apt:
+       name: git 
+       state: present
+   - name : i want to install tree on ubuntu 16
+     apt:
+       name: tree
+       state: present
