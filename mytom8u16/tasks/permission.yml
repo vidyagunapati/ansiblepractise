@@ -1,0 +1,50 @@
+---
+- name: change group ownership
+  file:
+    path: /opt/tomcat
+    state: directory
+    recurse: yes
+    group: tomcat
+
+- name: change mode of config
+  file:
+    path: /opt/tomcat/conf
+    state: directory
+    mode: g+r
+    recurse: yes
+    group: tomcat
+
+- name: change mode of config
+  file:
+    path: /opt/tomcat/conf
+    state: directory
+    mode: g+x
+    group: tomcat
+
+- name: change mode of webaps
+  file:
+    path: /opt/tomcat/webapps/
+    state: directory
+    recurse: yes
+    group: tomcat
+
+- name: change mode of work
+  file:
+    path: /opt/tomcat/work/
+    state: directory
+    recurse: yes
+    group: tomcat
+
+- name: change mode of temp
+  file:
+    path: /opt/tomcat/temp/
+    state: directory
+    recurse: yes
+    group: tomcat
+
+- name: change mode of logs
+  file:
+    path: /opt/tomcat/logs/
+    state: directory
+    recurse: yes
+    group: tomcat

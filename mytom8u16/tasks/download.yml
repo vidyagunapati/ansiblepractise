@@ -1,0 +1,6 @@
+---
+- name: i want to Download tar file from url
+  get_url:
+    url: https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.5/bin/apache-tomcat-8.5.5.tar.gz
+    dest: /home/ubuntu
+    force_basic_auth: yes

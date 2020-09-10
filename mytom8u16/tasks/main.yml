@@ -1,2 +1,7 @@
 ---
 # tasks file for mytom8u16
+- include: myjavainstall.yml
+- include: mytomusergrp.yml
+- include: download.yml
+- include: extracttar.yml
+- include: permission.yml

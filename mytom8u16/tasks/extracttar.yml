@@ -1,0 +1,6 @@
+---
+- name: create folder
+  file:
+    path: /opt/tomcat
+    stste: directory
+    mode: '0755'
