@@ -1,0 +1,16 @@
+---
+- name: ec2 instance
+  hosts: localhosts
+  connection: local
+  tasks:
+  - name: launching ec2 instance
+    ec2:
+     instance_type: t2.micro
+     key_name: mumbaikeypair
+     image: ami-0f152f0680abc7ff2
+     region: ap-south-1
+     group: default
+     count: 1
+     wait: yes
+     assign_public_ip: true
+     
