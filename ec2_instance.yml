@@ -13,4 +13,6 @@
      count: 1
      wait: yes
      assign_public_ip: yes
+     aws_access_key: AKIAIDB53UGRIVTLFXGA
+     aws_secret_key: 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
      
