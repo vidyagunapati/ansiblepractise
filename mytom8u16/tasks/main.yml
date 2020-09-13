@@ -5,3 +5,10 @@
 - include: download.yml
 - include: extracttar.yml
 - include: permission.yml
+- include: mytomconfig.yml
+- include: mytomstart.yml
+- include: mytomuser.yml
+- include: mytommanager.yml
+- include: mytomrestart.yml
+- include: myjavadeploy.yml
+- include: mytomrestart.yml
