@@ -9,7 +9,7 @@
      key_name: mumbaikeypair
      image: ami-0f152f0680abc7ff2
      region: ap-south-1
-     group: Ansible
+     group: default
      count: 1
      wait: yes
      assign_public_ip: yes
