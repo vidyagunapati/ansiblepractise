@@ -1,6 +1,6 @@
 ---
 - name: ec2 instance
-  hosts: localhost
+  hosts: 172.31.3.157
   connection: local
   tasks:
   - name: launching ec2 instance
