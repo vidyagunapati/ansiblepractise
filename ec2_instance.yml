@@ -12,6 +12,5 @@
      group: default
      count: 1
      wait: yes
-     aws_access_key: AKIAIDB53UGRIVTLFXGA
-     aws_secret_key: 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
+     
      
