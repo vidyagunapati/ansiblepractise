@@ -10,6 +10,7 @@
      image: ami-0f152f0680abc7ff2
      region: ap-south-1
      group: default
+     vpc_subnet_id: subnet-0120a47a
      count: 1
      wait: yes
      aws_access_key: AKIAVJIAN6LN7QJURM47
