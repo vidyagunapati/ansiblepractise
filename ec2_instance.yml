@@ -5,7 +5,7 @@
   tasks:
   - name: launching ec2 instance
     ec2:
-     instance_type: t2.micro
+     instance_type: t2.small
      key_name: mumbaikeypair
      image: ami-0f152f0680abc7ff2
      region: ap-south-1
